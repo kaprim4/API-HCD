@@ -1,0 +1,12 @@
+package com.example.HCOData.exception.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class ErrorResponseNotPA {
+    private String message;
+}

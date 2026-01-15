@@ -1,0 +1,12 @@
+package com.example.HCOData.enums;
+
+public enum ExistFileFlagsEnum {
+    ORIGINAL_RECEIPT,
+    IDENTICAL_EXISTING_FILE,
+    BARCODE_ALREADY_EXISTS,
+    SAME_SHOP_SAME_MOMENT,
+    EXISTING_PRODUCT_LIST,
+    BANNED_SOFTWARE,
+    EXISTING_MD5,
+    		
+}
